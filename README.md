@@ -1,8 +1,4 @@
-# Example Linux programs using the sockets API and libcurl
+# Lab 8 for CC3511
 
-These are a set of example applications that use TCP and UDP sockets as well as libcurl. They are intended as educational examples for students learning to write Linux network applications.
-
-To compile the http client, you will need libcurl to be installed, with something like:
-```
-$ sudo apt-get install libcurl4-openssl-dev
-```
+Custom client app is provided in src/http_client.cpp
+Cloned from https://github.com/bronsonp/SocketsDemo
